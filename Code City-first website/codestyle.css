@@ -1,0 +1,48 @@
+*{
+margin: auto;
+padding: auto;
+font-family: 'Times New Roman', Times, serif;
+box-sizing: border-box;
+}
+
+.styling{
+    width:auto;
+    height: auto;
+    background:fixed;
+    
+}
+
+.styling img{
+width: 100%;  
+margin-bottom: -5px;
+}
+
+.h1{
+position: absolute;
+top: 40%;
+left:35%;
+font-size: x-large;
+font-weight: 300;
+letter-spacing: 4px;
+color: darkgray;
+}
+
+.h2{
+position:absolute;
+top:170%;
+left:25%;
+font-size: x-large;
+font-weight: 300;
+letter-spacing: 4px;
+color: darkgray;
+}
+
+.script{
+    position:absolute;
+    top:190%;
+    left:40%;
+    font-size:large;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color:black;   
+}
