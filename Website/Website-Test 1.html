@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta name="=viewport" content="=width-device-width, initial-scale=1.0">
+    <title>Today's Date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="styling">
+        <img src="image.jpg">
+        <h1 id="current-time"></h1>
+        <div class="quote">
+            <p>Today's Quote</p>
+            <h2>Attitude is the 'little' thing that makes a big difference.</h2>
+        </div>
+    </div>
+<script>
+let time = document.getElementById("current-time");
+
+setInterval(() =>{
+let D = new Date();
+time.innerHTML= D.toLocaleTimeString();
+},1000)
+
+</script>
+</body>
+</html>
